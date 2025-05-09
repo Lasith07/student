@@ -235,7 +235,7 @@ namespace DemoAPI.Services.StudentService
             }
             catch (Exception ex)
             {
-                logger.LogError(ex, "Error updating student with ID {StudentId}", id);
+                logger.LogError(ex, "Error updating student with ID testtttt {StudentId}", id);
                 return new BaseResponse
                 {
                     status_code = StatusCodes.Status500InternalServerError,
